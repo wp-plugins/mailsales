@@ -58,7 +58,7 @@ class MailSales_Widget extends WP_Widget {
 		print "
 		<p><b>".__("Title:")."</b></p>
 		<p><input type='text' id='".$this->get_field_id('subscribe_title')."' name='".$this->get_field_name('subscribe_title')."' value='".$instance['subscribe_title']."' /></p>
-		<p><b>".__("ID рассылки:")."<sup style='color: red;'>*</sup></b></p>
+		<p><b>".__("Subscribe ID:")."<sup style='color: red;'>*</sup></b></p>
 		<p><input type='text' id='".$this->get_field_id('subscribe_id')."' name='".$this->get_field_name('subscribe_id')."' value='".$instance['subscribe_id']."' /></p>
 		<p><b>".__("Text in the field `Your name`:")."</b></p>
 		<p><input type='text' id='".$this->get_field_id('subscribe_name_text')."' name='".$this->get_field_name('subscribe_name_text')."' value='".$instance['subscribe_name_text']."' /></p>
